@@ -51,7 +51,7 @@ State Management: React Hooks
 
 Clone the repo:
 
-git clone https://github.com/your-username/nano-banana-ai.git
+git clone https://github.com/HarmonJavier01/creative_banana.git
 cd nano-banana-ai
 
 Install dependencies:
