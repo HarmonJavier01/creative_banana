@@ -66,12 +66,16 @@ VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 ⚡ How to Use the App
 
 1️⃣ Start the app → Run npm run dev and open in browser
+
 2️⃣ Describe your image → Enter a creative prompt
 
 Example: "Nano Banana drink can on a beach at sunset, vibrant colors"
 3️⃣ Select Agency Type → Choose 🚀 Full Service, 📱 Social Media, 🔍 SEO/SEM, or ✍️ Content
+
 4️⃣ Pick Image Format → 1:1 Ad, 16:9 Banner, Product Image, Social Square, or Story
+
 5️⃣ Generate → Click Generate Image and wait for the magic ✨
+
 6️⃣ Download → Save your ad with one click 📥
 
 📸 Example Preview
