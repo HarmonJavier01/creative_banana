@@ -5,64 +5,45 @@ It helps agencies and marketers create eye-catching visuals for social media, ba
 
 ✨ Features
 
-🎨 Prompt-to-Image Generator – Describe your product/brand and generate visuals
-
-🏢 Agency-Specific Use Cases – Optimized for:
-
-🚀 Full Service Digital Agencies
-
-📱 Social Media Marketing Agencies
-
-🔍 SEO/SEM Specialists
-
-✍️ Content Marketing Agencies
-
-🖼 Ad Format Support
-
-1:1 Image Ads
-
-16:9 Banner Images
-
-1:1 Product Selling Images
-
-1:1 Social Media Square
-
-9:16 Social Media Story
-
-⚡ Supabase Edge Functions for AI image generation
-
-🔔 Toast Notifications with error handling
-
-📥 One-click Download of generated ads
+✅ 🎨 Prompt-to-Image Generator – Describe your product/brand and generate visuals
+✅ 🏢 Agency-Specific Use Cases – Optimized for:
+    🚀 Full Service Digital Agencies
+    📱 Social Media Marketing Agencies
+    🔍 SEO/SEM Specialists
+    ✍️ Content Marketing Agencies
+✅ 🖼 Ad Format Support – 1:1, 16:9, 9:16 ready
+✅ ⚡ Supabase Edge Functions for AI image generation
+✅ 🔔 Smart Toast Notifications with error handling
+✅ 📥 One-click Download of generated ads
 
 🚀 Tech Stack
 
-Frontend: React + Vite + TailwindCSS + ShadCN UI
+⚛️ Frontend: React + Vite + TailwindCSS + ShadCN UI
 
-Backend: Supabase (Edge Functions for image generation)
+🗄 Backend: Supabase (Edge Functions for AI)
 
-UI Components: Lucide Icons, ShadCN Cards, Buttons, Textarea
+🎨 UI Components: Lucide Icons, ShadCN Cards, Buttons, Textarea
 
-Notifications: Sonner
+🔔 Notifications: Sonner
 
-State Management: React Hooks
+🌀 State Management: React Hooks
 
 📦 Installation
 
-Clone the repo:
+# Clone the repo
 
-git clone https://github.com/HarmonJavier01/creative_banana.git
+git clone https://github.com/your-username/nano-banana-ai.git
 cd nano-banana-ai
 
-Install dependencies:
+# Install dependencies
 
 npm install
 
-Run the dev server:
+# Run the dev server
 
 npm run dev
 
-Build for production:
+# Build for production
 
 npm run build
 
@@ -75,65 +56,26 @@ VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
 
 ⚡ How to Use the App
 
-Start the app
-Run npm run dev and open your browser at http://localhost:5173 (or the URL shown in terminal).
+1️⃣ Start the app → Run npm run dev and open in browser
+2️⃣ Describe your image → Enter a creative prompt (e.g., "Nano Banana drink can on a beach at sunset, vibrant colors")
+3️⃣ Select Agency Type → Choose 🚀 Full Service, 📱 Social Media, 🔍 SEO/SEM, or ✍️ Content
+4️⃣ Pick Image Format → 1:1 Ad, 16:9 Banner, Product Image, Social Square, or Story
+5️⃣ Generate → Click Generate Image and wait for the magic ✨
+6️⃣ Download → Save your ad with one click 📥
 
-Describe your image
-
-In the "Describe Your Image" box, type what you want.
-
-Example:
-
-Tropical Nano Banana drink can on a beach with palm trees at sunset, vibrant colors, product photography style
-
-Select an agency type
-
-Choose the audience you’re creating for:
-
-🚀 Full Service Digital Agency
-
-📱 Social Media Marketing
-
-🔍 SEO/SEM Specialist
-
-✍️ Content Marketing
-
-Choose the ad format
-
-Pick the visual format:
-
-1:1 Image Ads
-
-16:9 Banner
-
-1:1 Product Image
-
-1:1 Social Media Square
-
-9:16 Social Media Story
-
-Generate the image
-
-Click "Generate Image"
-
-The AI will process your prompt and show the result in the preview panel.
-
-Download the image
-
-Click "Download Image" to save the generated creative.
-
-Files are saved as nano-banana-[timestamp].png
-
-📸 Preview
-Input Prompt Generated Image
+📸 Example Preview
+Prompt
 "Nano Banana energy drink can splashing into ice water with golden bananas"
+Result:
+![alt text](nano-banana-1759474330265.png)
+
 🛠 Development Notes
 
-Add new agencies by updating the agencies array
+Add new agencies → edit agencies array
 
-Add/modify image categories in the categories array
+Add new categories → edit categories array
 
-Supabase function generate-image handles AI calls
+Backend AI calls handled by Supabase generate-image function
 
 📜 License
 
