@@ -1,6 +1,6 @@
-🍌 Nano Banana AI – Marketing Image Generator
+Image AI Generator – Marketing Image Generator
 
-Nano Banana AI is a professional digital advertising content generator built with React, Supabase, and Tailwind UI.
+Image AI Generator is a professional digital advertising content generator built with React, Supabase, and Tailwind UI.
 
 It helps agencies and marketers create eye-catching visuals for social media, banners, product ads, and more.
 
@@ -96,4 +96,4 @@ Result:
 
 📜 License
 
-MIT License © 2025 – Built with 🍌 love for creative marketers.
+MIT License © 2025 – Built with love for creative marketers.
